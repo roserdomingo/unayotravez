@@ -7,6 +7,15 @@ body {
   padding: 0;
 }
 
+
+.logo {
+  width: 200px;
+  /* o el tamaño que quieras */
+  height: auto;
+  /* mantiene proporción */
+}
+
+
 /* Contenedor principal */
 .container {
   display: flex;

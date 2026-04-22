@@ -272,7 +272,7 @@ const mobileToggle = document.getElementById('mobile-month-toggle');
 
 //Visibilidad de la hamburguesa según scroll
 function controlHamburgerVisibility() {
-  if (window.scrollY === 0) {
+  if (window.scrollY === 20) {
     mobileToggle.classList.remove('hidden');
   } else {
     mobileToggle.classList.add('hidden');
